@@ -56,6 +56,10 @@ def AbsSin(t):
     FUNDAMENTAL_PERIOD = 10
     return np.abs(np.sin(t * (math.pi / 20)))
 
+#########################################################################################
+#After updating the following values run the script
+#########################################################################################
+
 #Choose function from definitions above. Feel free to add your own
 FUNC = Rect     
 #Choose the speed at which the graph is updated
