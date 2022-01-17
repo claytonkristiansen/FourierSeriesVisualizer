@@ -7,10 +7,10 @@ import time
 
 #These are the function definitions
 #Feel free to change them or add additional ones as you see fit
-#The FUNDAMENTAL_PERIOD must match that of the function you choose though
+#The FUNDAMENTAL_PERIOD must match that of the function you choose
 #The functions must also be periodic because we are computing Fourier Series not Transforms
-#You should use numbers larger than 10 so that Python can do the float math correctly without corruption
-#The maximum number of coefficients is also around 200, past this Python gets angry
+#You should use numbers larger than 10 so that Python can do the float math accurately
+#The maximum number of coefficients is also around 200
 
 #Global
 FUNDAMENTAL_PERIOD = 40
